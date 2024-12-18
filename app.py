@@ -48,7 +48,7 @@ if st.button("Recommended"):
     for i, col in enumerate(cols):
         with col:
             #st.text(recommended_movie[i])
-            st.image(poster[i],use_column_width=True)  # Display movie poster
+            st.image(poster[i],use_container_width=True)  # Display movie poster
             st.write(f"**{recommended_movie[i]}**")  # Display movie title
     # for i in range(len(recommended_movie)):
     #     st.subheader(recommended_movie[i])  # Display the movie title as a subheader
